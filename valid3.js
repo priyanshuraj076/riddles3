@@ -7,7 +7,7 @@ var pass_error = document.getElementById('pass_error');
 password.addEventListener('input', pass_Verify);
 
 function validated() {
-    if (password.value !== "SARNATHPILLER") {
+    if (password.value !== "SARNATHPILLAR") {
         pass_error.style.display = "block";
         password.focus();
         return false;
